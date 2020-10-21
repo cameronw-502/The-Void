@@ -35,6 +35,7 @@ document.querySelector(' ul ').innerHTML = navBarMarkup;
 
 // Creates hamburger icon for mobile navigation
 
+
 // Select HTML objects
 
 const burger = document.querySelector('.burger i');

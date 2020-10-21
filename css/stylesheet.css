@@ -1,3 +1,5 @@
+
+
 html,
 body {
     text-overflow: ellipsis;
@@ -52,7 +54,7 @@ header {
     }
     .nav {
         margin: 0;
-        background: green;
+        background: black;
         position: absolute;
         right: -100%;
         top: 70px;
@@ -78,3 +80,42 @@ header {
 }
 
 
+.container {
+    width: 75%;
+    height: 55%;
+    border: 15px solid grey;
+    background-color: grey;
+    padding: 50px;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+button{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 25%;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.start-button:hover{
+    background-image: url("https://media3.giphy.com/media/xUPGcESvfRaiFNer2o/giphy.gif");
+    background-size: cover;
+        
