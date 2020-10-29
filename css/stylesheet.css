@@ -92,6 +92,17 @@ header {
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.question {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+    
+    
 }
 
 h2 {
@@ -118,4 +129,5 @@ button{
 .start-button:hover{
     background-image: url("https://media3.giphy.com/media/xUPGcESvfRaiFNer2o/giphy.gif");
     background-size: cover;
+}
         
