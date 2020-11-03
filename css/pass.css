@@ -1,0 +1,12 @@
+html {
+    background-image: url("https://media.giphy.com/media/a9imQoghMq5IQ/giphy.gif");
+    background-size: cover;
+}
+
+.title { 
+    color: white;
+}
+
+.question-container {
+    opacity: 50%;
+}
