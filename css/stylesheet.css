@@ -91,13 +91,13 @@ header {
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -35%);
 
 }
 
 .question-container {
     width: 75%;
-    height: 55%;
+    height: 75%;
     border: 15px solid grey;
     background-color: grey;
     padding: 0px 5px 0px 5px;;
@@ -106,7 +106,7 @@ header {
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
 
 }
 .question {
@@ -153,7 +153,7 @@ h2 {
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
-    transform: translate(-125%, -25%);
+    transform: translate(-125%, 100%);
     width: 35%;
     height: 25%;
     background-color: red;
@@ -168,7 +168,7 @@ h2 {
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
-    transform: translate(30%, -25%);
+    transform: translate(30%, 100%);
     width: 35%;
     height: 25%;
     background-color: red;
@@ -176,5 +176,9 @@ h2 {
     font-size: 25px;
     font-family: 'Fjalla One', sans-serif;
     
+}
+
+.q-button1:hover,.q-button2:hover {
+    background-color: navy;
 }
         
