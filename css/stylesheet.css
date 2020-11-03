@@ -85,22 +85,40 @@ header {
     height: 55%;
     border: 15px solid grey;
     background-color: grey;
-    padding: 50px;
+    padding: 0px 5px 0px 5px;;
     align-items: center;
     position: fixed;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
-    overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+
 }
 
+.question-container {
+    width: 75%;
+    height: 55%;
+    border: 15px solid grey;
+    background-color: grey;
+    padding: 0px 5px 0px 5px;;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}
 .question {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+   
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;     
+    white-space: -o-pre-wrap;    
+    
 }
 
 h2 {
@@ -110,7 +128,7 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
 }
 
-button{
+.start-button{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -122,10 +140,41 @@ button{
     color: white;
     font-size: 25px;
     font-family: 'Fjalla One', sans-serif;
+    
 }
 
 .start-button:hover{
     background-image: url("https://media3.giphy.com/media/xUPGcESvfRaiFNer2o/giphy.gif");
     background-size: cover;
+}
+
+.q-button1 {
+        position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-125%, -25%);
+    width: 35%;
+    height: 25%;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+.q-button2 {
+        position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(30%, -25%);
+    width: 35%;
+    height: 25%;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    
 }
         
