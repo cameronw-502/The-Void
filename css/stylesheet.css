@@ -33,7 +33,8 @@ header {
 
 .navlink {
     list-style-type: none;
-    margin: 0;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .navlink a {
@@ -64,6 +65,7 @@ header {
         justify-content: space-around;
         padding: 0;
         transition: all 400ms;
+        overflow: hidden;
     }
     .navlink {
         text-align: center;
@@ -100,13 +102,14 @@ header {
     height: 75vh;
     border: 15px solid grey;
     background-color: grey;
-    padding: 0px 5px 0px 5px;;
+    padding: 0px 5px 5px 5px;;
     align-items: center;
     position: fixed;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -40%);
+    
 
 }
 .question {
@@ -117,7 +120,8 @@ header {
     white-space: pre-wrap;       
     white-space: -moz-pre-wrap;  
     white-space: -pre-wrap;     
-    white-space: -o-pre-wrap;    
+    white-space: -o-pre-wrap;  
+    
     
 }
 
@@ -217,4 +221,29 @@ h2 {
 
 .link {
     color: red;
+}
+
+.button-container {
+    padding-top: 250px;
+    
+}
+
+@media screen and (max-width: 1236px) {
+    .question-container{
+        width: 100%;
+        height: 75%;
+        border: 15px solid grey;
+        background-color: grey;
+        padding: 0px 5px 5px 5px;;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        overflow: scroll;
+    }
+    
+    .button-container {
+       transform: translateY(-25%);
+    }
+    
 }
