@@ -170,7 +170,7 @@ tr:nth-child(even) {
 
 
 /* -----------Media Query----------- */
-
+/*Desktop*/
 @media screen and (max-width: 1236px) {
     .question-container{
         width: 100%;
@@ -194,7 +194,7 @@ tr:nth-child(even) {
         margin-top: 100px;
     }
 }
-
+/*Tablet*/
 @media screen and (max-width: 678px) {
     .burger {
         display: block;
@@ -222,7 +222,7 @@ tr:nth-child(even) {
        
     }
 }
-
+/*Mobile*/
 @media screen and (max-width: 375px) {
     .title {
         font-size: 50px;
