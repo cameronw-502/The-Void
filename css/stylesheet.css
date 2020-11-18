@@ -20,12 +20,13 @@ header {
     overflow: hidden;
 }
 
-.
+
 
 .title {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 65px;
+    
 }
 
 
@@ -275,7 +276,6 @@ tr:nth-child(even) {
     position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-125%, 100%);
     width: 35%;
     height: 25%;
@@ -287,10 +287,9 @@ tr:nth-child(even) {
 }
 
 .q-button2 {
-        position: fixed;
+    position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(30%, 100%);
     width: 35%;
     height: 25%;
@@ -327,3 +326,5 @@ tr:nth-child(even) {
 .link {
     color: red;
 }
+
+
