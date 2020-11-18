@@ -38,7 +38,7 @@ header {
     padding: 0px 5px 0px 5px;;
     align-items: center;
     margin-left: 10%;
-    margin-right: 20%;
+    margin-right: 40;
     
 
 }
@@ -68,7 +68,8 @@ header {
     white-space: pre-wrap;       
     white-space: -moz-pre-wrap;  
     white-space: -pre-wrap;     
-    white-space: -o-pre-wrap;  
+    white-space: -o-pre-wrap;
+    font-size: 45px;
     
     
 }
@@ -94,6 +95,7 @@ h2 {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 
 
 
@@ -221,6 +223,25 @@ tr:nth-child(even) {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 50px;
+        align-content: center;
+    }
+    .container {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 90vw;        
+    }
+    .container-text {
+        font-size: 25px;            
+    }
+     
+    
+}
+
+
+
 
 
 
@@ -245,25 +266,29 @@ tr:nth-child(even) {
     margin-left: 15%;
     align-content: center;
 }
-
+.toggle-div-1 {
+    margin-left: 15%;
+    align-content: center;
+    margin-bottom: 50px;
+}
 .button-container {
     padding-top: 250px;
     
 }
 
-.start-button{
-    width: 500px;
+    .start-button{
+    width: 100%;
     height: 250px;
     border: 15px solid grey;
     background-color: grey;
     padding: 0px 5px 5px 5px;
-    
+    align-content: center;
     background-color: red;
     color: white;
     font-size: 25px;
     font-family: 'Fjalla One', sans-serif;
-    margin-left: 33%;
-    margin-right: 66%;
+   
+     
     margin-top: 250px;
 }
 
