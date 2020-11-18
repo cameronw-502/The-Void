@@ -3,6 +3,13 @@ let time = new Date().toLocaleTimeString();
 let date = new Date().toLocaleDateString();
 
 
+if (name === 'Elon Musk') {
+   var image = `"img/elon.jpg"`;
+} else {
+   var image = `"img/blankprofile.png"`;
+}
+
+
 
 let html = `
   <table>
@@ -13,7 +20,7 @@ let html = `
             <th>Name</th>
         </tr>
         <tr>
-            <td><img src="img/blankprofile.png" alt="blank profile image"style="width:205px;height:212px;"></td>
+            <td><img src=${image} alt="blank profile image"style="width:205px;height:212px;"></td>
             <td>${time}</td>
             <td>${date}</td>
             <td>${name}</td>

@@ -12,3 +12,8 @@ The requirements used in this website are:
 
 
 4. Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction. This was used on all the question pages. 
+
+
+HINT:
+
+For a hidden feature type in "Elon Musk" on the leaderboard.
