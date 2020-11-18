@@ -18,6 +18,14 @@
     
     <div class = "question-container">
         <h2 class = "question">You find enough materials and begin to make a raft. Four hours pass and you have successfully made the raft. It is starting to get dark. Do you leave right away or set up camp for the night?</h2>
+        <div class="toggle-div">
+            <script src="js/toggle.js"></script>
+            <button class="button-toggle" onclick="toggle()">Hide Hint</button>
+
+            <div class="toggle" id="myDIV">
+                <p>You have to choose an answer.</p>
+            </div>
+        </div>
         <br>
         <div class="button-container">
         <button class = "q-button1" type="button"  onclick="location.href='fail.html'" >Leave</button>

@@ -18,6 +18,14 @@
     
     <div class = "question-container">
         <h2 class = "question">Finally you are so close to the smoke. Only about 2 more hours and you will be there. You are exhausted and starving. Do you continue to the smoke or take shelter for the night?</h2>
+        <div class="toggle-div">
+            <script src="js/toggle.js"></script>
+            <button class="button-toggle" onclick="toggle()">Hide Hint</button>
+
+            <div class="toggle" id="myDIV">
+                <p>You have to choose an answer.</p>
+            </div>
+        </div>
         <br>
         <div class="button-container">
         <button class = "q-button1" type="button"  onclick="location.href='fail.html'" >Keep going</button>
