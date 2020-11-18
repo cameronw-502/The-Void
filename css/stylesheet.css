@@ -64,14 +64,15 @@ header {
         flex-direction: column;
         justify-content: space-around;
         padding: 0;
-        transition: all 400ms;
-        overflow: hidden;
+        transition: all 400ms;       
     }
     .navlink {
         text-align: center;
+        overflow: hidden;
     }
     .nav-active {
         right: 0;
+       
     }
 }
 
@@ -228,6 +229,26 @@ h2 {
     
 }
 
+table {
+    width: 100%;
+    border-collapse: collapes;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+td {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+th {
+    font-size: 25px;
+}
+
+td {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1236px) {
     .question-container{
         width: 100%;
@@ -247,3 +268,5 @@ h2 {
     }
     
 }
+
+
