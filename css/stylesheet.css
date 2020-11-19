@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     
+    
 }
 
 header {
@@ -117,6 +118,7 @@ logo {
     list-style-type: none;
     margin-left: 25px;
     margin-right: 25px;
+    
 }
 
 .navlink a {
